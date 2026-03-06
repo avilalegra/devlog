@@ -1,0 +1,8 @@
+
+:80 {
+    root * /app/public
+    # Envia las peticiones PHP a FrankenPHP embebido
+    php_server
+    # Sirve archivos estáticos directamente (CSS, JS, imágenes…)
+    file_server
+}
